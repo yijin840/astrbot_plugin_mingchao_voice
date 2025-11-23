@@ -1,5 +1,5 @@
 # 文件名: main.py
-# 鸣潮/战双通用随机语音插件 (动态目录版)
+# 鸣潮通用随机语音插件 (动态目录版)
 
 import random
 import re
@@ -13,7 +13,7 @@ from astrbot.api.star import StarTools, Star
 
 
 # 插件注册信息改为更通用的“随机语音”
-@register("astrbot_plugin_random_voice", "yijin840", "动态目录随机语音（一键即播）", "1.0.0")
+@register("astrbot_plugin_mingchao_voice", "yijin840", "动态目录随机语音（一键即播）", "1.0.0")
 class DynamicVoicePlugin(Star):
     # 允许用户输入 /ww 后面接的命令列表，例如 'ktxy', 'zspms'
 
