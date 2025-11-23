@@ -1,3 +1,8 @@
 {
-
+  "auto_download": {
+    "description": "忽视",
+    "type": "bool",
+    "hint": "true / false",
+    "default": true
+  }
 }
